@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#fondo{
+background: url(../Imagenes/cabecera.gif);
+height: 80vh;
+background-position: center;
+background-size: cover;
+}
+
+.contenedorTitu{
+  background: rgba(251, 251, 251, 0.3);
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  position: relative;
+  top:70px;
+  width: 100%;
+}
+
+#titulo{
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+#titulo h1{
+    float: left;
+}
+
+.menu2{
+    float: right;
+    margin-top: 10px;
+}
+
+.menu2 a{
+   position: relative;
+    color: white;
+    text-decoration: none;
+    right: 10px;
+}
+
+
+.menu2 a:hover{
+    background: rgb(14, 202, 213,0.5);
+}
+
+.ContenedorNav{
+    width: 100%;
+    margin:auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#Cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    height: auto;
+    background: #0a244f;
+    padding: 5px;
+}
+
+
+
+.menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+
+.menu li{
+list-style: none;
+float: left;
+margin: 5px;
+}
+
+.menu li ul{
+  display: none;
+  position: absolute;
+}
+
+.menu li:hover ul{
+  display: block;
+}
+
+.menu li ul li{
+  position: relative;
+}
+
+.menu li ul li ul{
+  height: -145;
+  top:0px;
+  padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+
+}
+
+.menu a:hover{
+    background: rgb(251, 251, 251,0.5);
+}
+
+.ContenedorNav{
+    width: 100%;
+    margin:auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px;
+}
+
+#Principal{
+   color: #FFF;
+    position: relative;
+    top:55%;
+    padding: 10px;
+}
+
+.ContenedorPrin{
+   font-weight: 600;
+   font-size: 50px;
+   text-align: center;
+}
+
+.ContenedorPrin a{
+  color: #FFF;
+  text-decoration: none;
+  width: 10%;
+  padding: 5px 10px;
+}
+
+h3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:30px;
+  text-align: center;
+}
+
+h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    text-align: center;
+    margin: 5px;
+  }
+p{
+
+  text-align:justify;
+  margin-top: 20px;
+  padding: 20px;
+}
+.contenedorCont{
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+
+article.Alim{
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+
+article.Comp{
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+article.Repro{
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+
+section#info{
+  background-color: #e60f4b;
+  color: #FFF;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+
+div.aves{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:block;
+  margin:auto;
+  text-align:justify;
+  font-size: 25px;
+
+}
+div.avesimg{
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+div.man{
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+div.tur{
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+
+
